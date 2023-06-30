@@ -1,0 +1,117 @@
+.chatbot-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 85vw;
+    background-color: #353740;
+    overflow: hidden;
+}
+.chatbot-container .chat-area{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.chat-area .gif{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  flex-direction: column;
+}
+.gif img{
+    height: 30%;
+    width: 15%;
+}
+.gif h3{
+    color: whitesmoke;
+
+}
+.chat-area .user-chat-box{
+    width: 50%;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    border: 1px solid rgba(32,33,35,.5);
+    padding: 1rem 28rem;
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.chat-icon{
+    margin-right: 20px;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.chat-area .bot-chat-box{
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    background-color:  #444654;
+    border: 1px solid rgba(32,33,35,.5);
+    padding: 1rem 28rem;
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.bot-chat-box .bot-chat-icon{
+    background-color: green;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    /* top: 20px;
+    position: relative; */
+}
+.chatbot-container .input-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 40rem;
+    margin-bottom: 5rem;
+    border-radius: 5px;
+    background-color: #6e6e80;
+}
+.input-container input{
+    height: 100%;
+    width: 90%;
+    background-color: #6e6e80;
+    color: white;
+    padding: 10px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    font-size: 15px;
+}
+.input-container .send-icon-container{
+    height: 100%;
+    width: 10%;
+    background-color: #6e6e80;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}

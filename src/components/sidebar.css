@@ -1,0 +1,56 @@
+.sidebar-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: 97.9vh;
+  width: 15vw;
+  padding: 10px;
+  background-color: #202123;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.sidebar-container .newchat {
+  height: 3rem;
+  width: 100%;
+  border: 0.2px solid rgb(170, 164, 164);
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+  border-bottom-right-radius: 0;
+  box-sizing: border-box;
+  margin-bottom: 35px;
+}
+.newchat .add-icon {
+  font-size: 1.5rem;
+  color: white;
+}
+.sidebar-container .chats-history {
+  height: 3rem;
+  width: 100%;
+  border: 0.2px solid rgb(170x, 164, 164);
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  text-transform: capitalize;
+}
+.chats-history:hover {
+  background-color: #444654;
+  border-radius: 8px;
+  border-bottom-right-radius: 0;
+}
+.chats-history:focus {
+  background-color: #444654;
+  border-radius: 8px;
+  border-bottom-right-radius: 0;
+}

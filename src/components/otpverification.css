@@ -1,0 +1,35 @@
+.otp-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.otp-container .otp-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60%;
+    width: 40%;
+    background-color: white;
+    /* box-shadow: 0 0 5px 2px gray; */
+    border-radius: 10px;
+}
+.otpnum-container input{
+    height: 3rem;
+    width: 21rem;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.verotp-btn{
+    margin-top: 35px;
+    height: 3rem;
+    width: 21rem;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    background-color: green;
+    padding: 5px;
+}
